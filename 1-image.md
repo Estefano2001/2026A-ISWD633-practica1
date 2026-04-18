@@ -15,6 +15,7 @@ docker pull <nombre imagen>:<tag>
 
 Descargar la imagen **hello-world**
 # COMPLETAR
+Con el comando, docker pull hello-world, descargamos la imagen
 
 **¿Qué es nginx?**
 # COMPLETAR 
