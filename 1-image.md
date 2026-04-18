@@ -14,13 +14,13 @@ docker pull <nombre imagen>:<tag>
 ```
 # COMPLETAR
 Descargar la imagen **hello-world**
-### Con el comando, docker pull hello-world, descargamos la imagen
+#### Con el comando, docker pull hello-world, descargamos la imagen
 # COMPLETAR 
 **¿Qué es nginx?**
-### Es un software muy usado en desarrollo web. Es un servidor web y también puede funcionar como proxy inverso, balanceador de carga y servidor de contenido estático.
+#### Es un software muy usado en desarrollo web. Es un servidor web y también puede funcionar como proxy inverso, balanceador de carga y servidor de contenido estático.
 # COMPLETAR
 Descargar la imagen  **nginx** en la versión **alpine**
-### Con el comando, docker pull nginx:alpine, descargamos la imagen con la version 
+#### Con el comando, docker pull nginx:alpine, descargamos la imagen con la version 
 
 ### Listar imágenes
 
