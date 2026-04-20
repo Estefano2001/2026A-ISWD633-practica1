@@ -78,7 +78,7 @@ docker exec -it srv-jenkins bash
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
-![image alt]()
+![image alt](https://github.com/Estefano2001/2026A-ISWD633-practica1/blob/b361ecf67ce0825db1fc7509359d94c9c959e970/instalado.jpeg)
 ### Para ver los logs de un contenedor
 
 ```
