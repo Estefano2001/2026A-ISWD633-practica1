@@ -14,7 +14,7 @@ Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de p
 # COMPLETAR
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
-![image alt](https://github.com/Estefano2001/2026A-ISWD633-practica1/blob/9deb1db279f90890069e2994a3fbf4abaadc39a7/Lista.jpeg)
+![image alt](https://github.com/Estefano2001/2026A-ISWD633-practica1/blob/ba4ec97976d8202587c20d5036c35a56bb44ddf4/localhost3000.jpeg)
 
 ### Para mapear más de un puerto
 
@@ -43,8 +43,10 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
 # COMPLETAR
 
-# COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+#### docker run -d --name srv-jenkins -p 8080:8080 -p 50000:50000 jenkins/jenkins
 
+# COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+![image alt]()
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 
