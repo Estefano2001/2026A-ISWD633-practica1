@@ -20,17 +20,17 @@ Para saber qué comando utilizar para abrir una terminal dentro de un contenedor
 - Para imágenes basadas en Alpine Linux, puedes probar con sh.
 ![Imagen](jenkins-i.PNG)
 ```
-docker exec -i <nombre contenedor> <programa o comando>
+docker exec -i srv-jenkins
 ```
 -i: mantiene abierta la entrada estándar (stdin) del contenedor. Esto significa que puedes enviar datos al proceso que se está ejecutando en el contenedor a través de la terminal local. *Sin embargo, esto no asigna un terminal al contenedor, por lo que no podrás ver la salida del proceso de forma interactiva.*
 
 ### Ejecutar una de las siguientes instrucciones
 ```
-docker exec -i <nombre contenedor> /bin/bash 
+docker exec -i srv-jenkins /bin/bash 
 ```
 ó
 ```
-docker exec -i <nombre contenedor> bash 
+docker exec -i srv-jenkins bash 
 ```
 **Considerar**
 - /bin/bash: Al especificar la ruta completa del shell, Docker buscará el ejecutable /bin/bash en el sistema de archivos del contenedor y lo ejecutará. Esto es útil cuando quieres asegurarte de que se está utilizando un shell específico que está ubicado en una ubicación conocida en el sistema de archivos del contenedor. 
@@ -62,11 +62,11 @@ Ejecutar un shell interactivo bidireccional en un contenedor de Docker significa
 
 ![Imagen](jenkins-it.PNG)
 ```
-docker exec -i-t <nombre contenedor> <programa o comando>
+docker exec -i-t srv-jenkins bash
 ```
 ó
 ```
-docker exec -it <nombre contenedor> <programa o comando>
+docker exec -it srv-jenkins bash
 ```
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
@@ -78,7 +78,7 @@ docker exec -it <nombre contenedor> <programa o comando>
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
-
+![image alt]()
 ### Para ver los logs de un contenedor
 
 ```
