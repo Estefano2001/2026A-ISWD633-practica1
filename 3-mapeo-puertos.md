@@ -46,7 +46,7 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 #### docker run -d --name srv-jenkins -p 8080:8080 -p 50000:50000 jenkins/jenkins
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
-![image alt]()
+![image alt](https://github.com/Estefano2001/2026A-ISWD633-practica1/blob/62bf0d583966563553c7dcd845592b729d5ca2cd/jenkins.jpeg)
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 
