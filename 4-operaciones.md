@@ -51,7 +51,7 @@ Ejecutar
 whoami
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA
-![image alt]()
+![image alt](https://github.com/Estefano2001/2026A-ISWD633-practica1/blob/526c0d34f3f10d5e9fa2407efbe238ac0fa7eef9/whoami.jpeg)
 
 **Si se visualiza el mensaje command not found, considerar**
 El problema se debe a que no se ha asignado un terminal de salida al contenedor al ejecutar el comando. Cuando usas docker exec -i jenkins-server /bin/bash en Windows, el comando se ejecuta pero no hay un terminal asignado para mostrar la salida del comando.
