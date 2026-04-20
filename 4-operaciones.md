@@ -74,7 +74,7 @@ docker exec -it srv-jenkins bash
 # COMPLETAR
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
-![image alt]()
+![image alt](https://github.com/Estefano2001/2026A-ISWD633-practica1/blob/70cebe5ccb88d81976eef0c16144a039ae166b51/contrase%C3%B1a.jpeg)
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
