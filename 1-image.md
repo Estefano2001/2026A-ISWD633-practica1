@@ -73,5 +73,5 @@ Eliminar una imagen no afecta a los contenedores que se han creado a partir de e
 Es una buena práctica detener y eliminar todos los contenedores que dependan de una imagen antes de eliminar la imagen en sí.
 
 ```
-docker rmi -f <nombre imagen>:<tag>
+docker rmi -f nginx:alpine
 ```
