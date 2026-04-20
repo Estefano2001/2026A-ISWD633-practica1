@@ -3,14 +3,14 @@
 Descarga la última versión de la imagen disponible en el registro de Docker.
 
 ```
-docker pull <nombre imagen> 
+docker pull hello-world 
 ```
 
 Descarga una versión específica de la imagen, cada imagen tiene etiquetas (tags) para diferentes versiones.
 Una imagen puede tener la etiqueta latest para representar la última versión, si no se especifica una etiqueta se hará referencia a la versión latest.
 
 ```
-docker pull <nombre imagen>:<tag>
+docker pull nginx:alpine
 ```
 # COMPLETAR
 Descargar la imagen **hello-world**
@@ -38,8 +38,8 @@ En Docker, se utilizan varios identificadores para diferenciar de manera única 
 El comando docker inspect se utiliza para obtener información detallada sobre un objeto de Docker específico, como un contenedor, una imagen, un volumen o una red.  Proporciona información en formato JSON sobre el objeto especificado.
 
 ```
-docker inspect <nombre imagen>
-docker inspect <nombre imagen>:<tag>
+docker inspect hello-world
+docker inspect nginx:alpine
 ```
 
 Inspeccionar la imagen hello-world 
@@ -52,7 +52,7 @@ Inspeccionar la imagen hello-world
 ### Filtrar imágenes
 
 ```
-docker images | grep <termino a buscar>
+docker images | grep hello-world
 
 ```
 
@@ -60,7 +60,7 @@ docker images | grep <termino a buscar>
 Eliminar permanentemente la imagen de tu sistema Docker.
 
 ```
-docker rmi <nombre imagen>:<tag>
+docker rmi hello-world
 ```
 
 Eliminar la imagen hello-world 
