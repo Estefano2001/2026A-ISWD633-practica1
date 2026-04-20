@@ -2,11 +2,13 @@
 
 ### Ejecutar un comando en un contenedor de Docker en ejecución
 ```
-docker exec <nombre contenedor> <comando> <argumentos opcionales>
+docker exec srv-jenkins ls -l
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
+#### Listar los archivos y carpetas que hay dentro de un directorio
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+#### Muestra información detallada de cada archivo
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
