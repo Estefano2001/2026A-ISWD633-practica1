@@ -46,6 +46,7 @@ Inspeccionar la imagen hello-world
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
+#### Pienso que con un algun algoritmo criptografico 
 # COMPLETAR
 
 ### Filtrar imágenes
